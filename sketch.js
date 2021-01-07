@@ -6,7 +6,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight/2);
   background(51)
  video = createCapture(VIDEO , ready);
- video.size(320,240)
+ video.size(width/2,height/2)
  button =  createButton('snap');
  button .mousePressed(takesnap)
 }
