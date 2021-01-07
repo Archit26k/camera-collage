@@ -3,7 +3,7 @@ var button
 var snapshots =[];
 
 function setup() {
-  createCanvas(800, 240);
+  createCanvas(windowWidth, windowHeight/2);
   background(51)
  video = createCapture(VIDEO , ready);
  video.size(320,240)
